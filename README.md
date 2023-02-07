@@ -195,14 +195,14 @@ This project is a revamped version to improve three main objectives over the fir
 
 ## 08. Notice
 
-#### 9.1. Project structure
+#### 8.1. Project structure
 This project uses **Getx** as a mini framework.
 
-#### 9.2. About GetX
+#### 8.2. About GetX
 
 * Check more here https://pub.dev/packages/get.
 
-#### 9.3. Creating a model
+#### 8.3. Creating a model
 
 * **Serialization** : We use `freeze` for model class code generation.
 * **Generate files**
@@ -213,11 +213,11 @@ flutter packages pub run build_runner watch --delete-conflicting-outputs
 
 * **Register serialize**: Add the new model to `T deserialize<T>(Map<String, dynamic> data)` function in `lib/app/utils/serialization.dart`.
 
-#### 9.4. Fastlane
+#### 8.4. Fastlane
 
 To automate deployment process, we use **Fastlane**. For more information, check https://docs.fastlane.tools/getting-started/cross-platform/flutter/.
 
-#### 9.5. FCM
+#### 8.5. FCM
 
 As requirement, we need to add SHA signature to firebase project. To get SHA signature, execute the following commands:
 
@@ -225,19 +225,19 @@ As requirement, we need to add SHA signature to firebase project. To get SHA sig
 cd android && ./gradlew signingreport
 ```
 
-#### 9.6. Using Existing Script
+#### 8.6. Using Existing Script
 
 * `./set_build_increase.sh`: to increase build number
 * `./set_version.sh [version number]`: to set version number
 * `./switch_dev.sh`: to switch environment, API url and firebase project to development
 * `./switch_prod.sh`: to switch environment, API url and firebase project to production mode. It is ready to deploy.
 
-#### 9.7. Switching Dev or Prod
+#### 8.7. Switching Dev or Prod
 
 If you are setting up this project for the first time, you need to login Firebase in your terminal first.
 Please check (firebase login https://firebase.google.com/docs/cli).
 
-#### 9.8. Localization
+#### 8.8. Localization
 
 * To add a new translation word:
   * Add the new word to language files in `lib/locales/[language_code].dart`

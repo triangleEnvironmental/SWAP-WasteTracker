@@ -195,14 +195,14 @@ This project is a revamped version to improve three main objectives over the fir
 
 ## 08. Notice
 
-#### 8.1. Project structure
+#### 8.1. Project Structure
 This project uses **Getx** as a mini framework.
 
 #### 8.2. About GetX
 
 * Check more here https://pub.dev/packages/get.
 
-#### 8.3. Creating a model
+#### 8.3. Creating a Model
 
 * **Serialization** : We use `freeze` for model class code generation.
 * **Generate files**

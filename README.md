@@ -21,6 +21,14 @@
 
   <p align="center">
     A public app for people to report waste issues.
+    <br/>
+    <br/>
+    <br/>
+    Try the existing platform
+    <br/>
+    <a href="https://play.google.com/store/apps/details?id=com.swapapp&hl=en_SG&gl=US">Google Play Store</a>
+    ·
+    <a href="https://apps.apple.com/us/app/waste-tracker/id1533627095">iOS App Store</a>
   </p>
 </div>
 
